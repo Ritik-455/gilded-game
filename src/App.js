@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Earn from './Components/Earn';
+import Herosection from './Components/Herosection';
+import Plateform from './Components/Plateform';
+import Token from './Components/Token';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Utility from './Components/Utility';
+import Roadmap from './Components/Roadmap';
+import Buy from './Components/Buy';
+import Frequent from './Components/Frequent';
+import Powered from './Components/Powered';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Herosection />
+      <Utility />
+      <Earn />
+      <Plateform />
+      <Token />
+      <Roadmap />
+      <Buy />
+      <Powered />
+      <Frequent />
+    </>
   );
 }
 
