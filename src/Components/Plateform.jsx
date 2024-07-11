@@ -5,7 +5,7 @@ import topellips from '../assets/images/SVG/gilded-upper-text-ellips.svg'
 const Plateform = () => {
     return (
         <>
-            <div className="bg-[url(../src/assets/images/WEBP/bg-platform.webp)] bg-center bg-cover bg-no-repeat">
+            <div className="bg-[url(../src/assets/images/WEBP/bg-platform.webp)] bg-center bg-cover bg-no-repeat" id="about">
                 <div className="container py-[55px] sm:py-[70px] md:py-[90px] lg:py-[120px] xl:py-[229px]">
                     <div className=" flex justify-center">
                         <div className=" relative">

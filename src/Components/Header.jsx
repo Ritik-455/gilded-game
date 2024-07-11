@@ -18,14 +18,22 @@ const Header = () => {
           <nav className=' flex justify-between items-center'>
             <img className='w-[186px] md:w-auto cursor-pointer' src={logo} alt="logo" />
             <div className="flex gap-[29px]">
-              <ul className={`${show ? "right_0" : "right_100"} flex items-center gap-[40px] xl:gap-[20px] 2xl:gap-[40px] mobile-view`}>
-                <li><a href="hi" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear'>About</a></li>
-                <li><a href="ihi" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear'>Presale $GILD</a></li>
-                <li><a href="oioih" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear'>Staking $GILD</a></li>
-                <li><a href="opj" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear'>$GILD Nodes</a></li>
-                <button className=' font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] xl:hidden'><span className="flex gap-[10px] items-center"><Discordlogo/>Discord</span></button>
+              <ul className={`${show ? "right_0" : "right_100"} flex items-center gap-[40px] xl:gap-[20px] 2xl:gap-[40px] mobile-view scroll-smooth `}>
+                <li><a href="#about" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear' onClick={() => {
+                  setfirst(!show);
+                }}>About</a></li>
+                <li><a href="#presale" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear' onClick={() => {
+                  setfirst(!show);
+                }}>Presale $GILD</a></li>
+                <li><a href="#staking" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear' onClick={() => {
+                  setfirst(!show);
+                }}>Staking $GILD</a></li>
+                <li><a href="#nodes" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear' onClick={() => {
+                  setfirst(!show);
+                }}>$GILD Nodes</a></li>
+                <button className=' font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] xl:hidden'><span className="flex gap-[10px] items-center"><Discordlogo />Discord</span></button>
               </ul>
-              <button className=' font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] hidden xl:block '><span className="flex gap-[10px] items-center"><Discordlogo/>Discord</span></button>
+              <button className=' font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] hidden xl:block '><span className="flex gap-[10px] items-center"><Discordlogo />Discord</span></button>
             </div>
             <div className="z-5 xl:hidden " onClick={() => {
               setfirst(!show);

@@ -41,7 +41,7 @@ const Powered = () => {
     };
     return (
         <>
-            <div className="container pt-[35px] lg:pt-[58px] pb-[47px] xl:pb-[192px]">
+            <div className="container pt-[35px] lg:pt-[58px] pb-[47px] xl:pb-[192px]" id="nodes">
                 <h3 className=' font-Josefin font-bold text-[38px] lg:text-[48px] leading-[61.2px] text-white text-center'> <span className='bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text'>Powered </span>By:</h3>
                 <div className="hidden xl:flex flex-wrap gap-[21px] mt-[68px]">
                     <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center py-[66px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3]">

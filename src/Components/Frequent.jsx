@@ -14,7 +14,7 @@ const Frequent = () => {
                 </div>
                 <div className="w-full border-[1px] border-[#191919] mt-[49px]"></div>
                 <div className="flex gap-[18px] items-center pt-[8px] pb-[11px] justify-center">
-                    <p className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#999999]'>© Copyright $GILD 2021</p>
+                    <p className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#999999]'>© Copyright $GILD 2024</p>
                     <div className="border-[0.7px] border-[#999999] h-[35px]"></div>
                     <p className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#999999]'>Policy</p>
                 </div>
