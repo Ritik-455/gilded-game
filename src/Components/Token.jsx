@@ -74,7 +74,7 @@ const Token = () => {
                         </div>
                     </div>
                     <div className=" xl:hidden">
-                        <Slider {...settings} className=' mt-[58px]'>
+                        <Slider {...settings} className=' mt-[30px] lg:mt-[58px]'>
                             <div className="">
                                 <div className=" max-w-[312px] w-full bg-custom-gradient border-[1px] border-[#4A4A4A]  rounded-[16px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[181px]">
                                     <div className=" flex flex-col items-center pt-3 lg:pt-[24px] lg:pb-[17px]">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Horse } from '../Common/icon'
+import { Horse } from '../Common/Icon'
 import Woodenbox from '../assets/images/WEBP/box-img.webp' 
 
 const Buy = () => {

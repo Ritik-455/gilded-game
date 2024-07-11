@@ -5,7 +5,7 @@ const Roadmap = () => {
     return (
         <>
             <div className=" overflow-hidden">
-                <div className="container pt-[92px] pb-[75px] relative">
+                <div className="container md:pt-[92px] pb-[45px] lg:pb-[75px] relative">
                     <h2 className=' font-Josefin font-bold text-[48px] leading-[61.2px] text-white text-center'><span className='bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text'>Road</span>map</h2>
                     <div className="hidden lg:block">
                         <hr className='max-w-[975px] w-full border-[2px] border-[#333333] mt-[128px]' />

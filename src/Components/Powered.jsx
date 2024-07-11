@@ -41,8 +41,8 @@ const Powered = () => {
     };
     return (
         <>
-            <div className="container pt-[58px] pb-[47px] xl:pb-[192px]">
-                <h3 className=' font-Josefin font-bold text-[48px] leading-[61.2px] text-white text-center'> <span className='bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text'>Powered </span>By:</h3>
+            <div className="container pt-[35px] lg:pt-[58px] pb-[47px] xl:pb-[192px]">
+                <h3 className=' font-Josefin font-bold text-[38px] lg:text-[48px] leading-[61.2px] text-white text-center'> <span className='bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text'>Powered </span>By:</h3>
                 <div className="hidden xl:flex flex-wrap gap-[21px] mt-[68px]">
                     <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center py-[66px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3]">
                         <img src={unreal} alt="unreal" />
@@ -60,22 +60,22 @@ const Powered = () => {
                 <div className=" xl:hidden">
                     <Slider {...settings} className=' mt-8'>
                         <div className="">
-                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[66px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[216px]">
+                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[66px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[150px] lg:min-h-[216px]">
                                 <img src={unreal} alt="unreal" />
                             </div>
                         </div>
                         <div className="">
-                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[59px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[216px]">
+                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[59px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[150px] lg:min-h-[216px]">
                                 <img src={uniswap} alt="uniswap" />
                             </div>
                         </div>
                         <div className="">
-                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[66px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[216px]">
+                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[66px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[150px] lg:min-h-[216px]">
                                 <img src={coin} alt="coin" />
                             </div>
                         </div>
                         <div className="">
-                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[60px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[216px]">
+                            <div className="bg-custom-gradient border-[1px] border-[#393939] max-w-[312px] w-full rounded-[24px] flex justify-center lg:py-[60px] hover:bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] hover:drop-shadow-[0_8px_35px#1BABFE] hover:border-[#8E78D3] min-h-[150px] lg:min-h-[216px]">
                                 <img src={polygon} alt="polygon" />
                             </div>
                         </div>

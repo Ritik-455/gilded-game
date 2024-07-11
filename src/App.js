@@ -10,6 +10,7 @@ import Roadmap from './Components/Roadmap';
 import Buy from './Components/Buy';
 import Frequent from './Components/Frequent';
 import Powered from './Components/Powered';
+import Accordion from './Components/Accordion';
 
 function App() {
   return (
