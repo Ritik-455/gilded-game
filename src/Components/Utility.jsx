@@ -2,7 +2,8 @@ import React from 'react'
 import girl from '../assets/images/WEBP/utility.webp'
 const Utility = () => {
     return (
-        <>
+        <> 
+
             <div className="bg-[url(../src/assets/images/WEBP/bg-utility.webp)] bg-no-repeat bg-cover bg-center mt-[-2px]">
                 <div className="container pt-[20px] lg:pt-[123px] pb-[35px] lg:pb-[194px]">
                     <div className="row flex-col-reverse md:flex-row">
