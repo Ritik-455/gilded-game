@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/SVG/logo.svg'
-import { Discord2, Dots, Github, Reddit, Telegram, Twitter } from '../Common/Icon'
+import { Discord2, Dots, Github, Reddit, Telegram, Twitter } from '../Common/icons'
+
 
 const FooterSection = () => {
     return (

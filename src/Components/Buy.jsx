@@ -1,6 +1,6 @@
 import React from 'react'
-import { Horse } from '../Common/Icon'
 import Woodenbox from '../assets/images/WEBP/box-img.webp' 
+import { Horse } from '../Common/icons'
 
 const Buy = () => {
     return (
@@ -15,7 +15,7 @@ const Buy = () => {
                                 <li className=' mt-[11px]'>NFT $GILD giveaway</li>
                                 <li className=' mt-[11px]'>Announcement and Games</li>
                             </ul>
-                            <button className=' font-Josefin font-normal text-[19px] lg:text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] mt-[21px] md:mt-[41px]'><span className='flex gap-[10px]'><Horse     />Presale</span></button>
+                            <button className=' font-Josefin font-normal text-[19px] lg:text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] mt-[21px] md:mt-[41px]'><span className='flex gap-[10px]'><Horse/>Presale</span></button>
                         </div>
                         <div className="col-12 md:col-6 flex justify-center">
                             <img className=' w-[262px] sm:w-auto' src={Woodenbox} alt="Box" />

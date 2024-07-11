@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import data from "../Common/Helper";
-import { Arrowacc, Arrowacc2, ArrowRight } from "../Common/Icon";
+import { Arrowacc, Arrowacc2, ArrowRight } from "../Common/icons";
 
 //  accordionitem component
 const AccordionItem = ({ heading, question, answer, isOpen, onClick }) => {

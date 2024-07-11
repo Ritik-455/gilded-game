@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from './Header'
-import { Presalelogo } from '../Common/Icon';
+import { Presalelogo } from '../Common/icons';
 
 const Herosection = () => {
     const initialTime = { days: 19, hours: 10, minutes: 2, seconds: 55 };

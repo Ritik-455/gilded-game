@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/images/SVG/logo.svg'
-import { Discordlogo, Navcross, Navline } from '../Common/Icon'
+import { Discordlogo, Navcross, Navline } from '../Common/icons';
 
 const Header = () => {
   const [show, setfirst] = useState(false);
