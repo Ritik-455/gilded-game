@@ -5,6 +5,7 @@ import { Discord2, Dots, Github, Reddit, Telegram, Twitter } from '../Common/Ico
 const FooterSection = () => {
     return (
         <>
+
             <div className="row mt-[45px] md:mt-[75px] lg:mt-[125px] xl:mt-[226px]">
                 <div className="col-12 sm:col-6 md:col-6 xl:col-8">
                     <img src={logo} alt="logo" />
