@@ -102,14 +102,14 @@ export const Github = () => {
 
     )
 }
-export const Arrowacc = () => {
+export const Arrowclose = () => {
     return (
         <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2 2.12305L10 8.12305L18 2.12305" stroke="white" stroke-width="2.62342" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
     )
 }
-export const Arrowacc2 = () => {
+export const Arrowopen = () => {
     return (
         <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2 8.12305L10 2.12305L18 8.12305" stroke="white" stroke-width="2.62342" stroke-linecap="round" stroke-linejoin="round" />

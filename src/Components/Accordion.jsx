@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import data from "../Common/Helper";
-import { Arrowacc, Arrowacc2, ArrowRight } from "../Common/icons";
+import { Arrowclose, Arrowopen, ArrowRight } from "../Common/icons";
 
 //  accordionitem component
 const AccordionItem = ({ heading, question, answer, isOpen, onClick }) => {
@@ -15,7 +15,7 @@ const AccordionItem = ({ heading, question, answer, isOpen, onClick }) => {
           <p className=" font-Montserrat font-normal text-[18px] leading-[21.94px] text-white">{question}</p>
           <p className=" font-Poppins font-normal text-[16px] md:text-[18px] leading-[23px] md:leading-[27px] text-white">{heading}</p>
         </div>
-        <span>{isOpen ? <Arrowacc2 /> : <Arrowacc />}</span>
+        <span>{isOpen ? <Arrowopen /> : <Arrowclose />}</span>
       </button>
 
       <div
