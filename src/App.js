@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import Earn from './Components/Earn';
 import Herosection from './Components/Herosection';
@@ -10,20 +11,39 @@ import Roadmap from './Components/Roadmap';
 import Buy from './Components/Buy';
 import Frequent from './Components/Frequent';
 import Powered from './Components/Powered';
-import Accordion from './Components/Accordion';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Loader from './Common/Loader';
+
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, [])
   return (
     <>
-      <Herosection />
-      <Utility />
-      <Earn />
-      <Plateform />
-      <Token />
-      <Roadmap />
-      <Buy />
-      <Powered />
-      <Frequent />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Herosection />
+          <Utility />
+          <Earn />
+          <Plateform />
+          <Token />
+          <Roadmap />
+          <Buy />
+          <Powered />
+          <Frequent />
+        </>
+      )}
     </>
   );
 }

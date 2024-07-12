@@ -62,8 +62,12 @@ const Herosection = () => {
                         </div>
                         <p className=' font-Josefin text-[18px] leading-[22.95px] text-white text-center'>Remaining Presale Time</p>
                         <div className="gap-[23px] flex justify-center mt-[22px]">
-                            <button className=' font-Josefin font-normal text-[19px] lg:text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px]'><span className='flex gap-[10px]'><Presalelogo />Presale</span></button>
-                            <button className=' font-Josefin font-normal text-[19px] lg:text-[24px] leading-[24px] text-white p-[14px_34px] border-[1px] border-white rounded-[79px]'>Join Now</button>
+                            <button className=' font-Josefin font-normal text-[19px] lg:text-[24px] leading-[24px] text-white p-[14px_24px] md:p-[14px_34px] bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] group relative overflow-hidden transition-all duration-300 ease-out '>
+                                <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-[12rem]"></span>
+                                <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-[12rem]"></span>
+                                <span className='flex gap-[10px] relative'><Presalelogo />Presale</span
+                                ></button>
+                            <button className=' group relative inline-flex items-center justify-start overflow-hidden font-Josefin font-normal text-[19px] lg:text-[24px] leading-[24px] text-white p-[14px_24px] md:p-[14px_34px] border-[1px] border-white rounded-[79px] hover:bg-white hover:text-black hover:border-white transition-all duration-300 ease-linear'>Join Now</button>
                         </div>
                     </div>
                 </div>

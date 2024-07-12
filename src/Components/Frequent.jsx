@@ -8,7 +8,7 @@ const Frequent = () => {
         <>
             <div className="bg-[url(../src/assets/images/WEBP/bg-freq.webp)] bg-cover bg-center bg-no-repeat">
                 <div className="container">
-                    <h3 className=' font-Poppins font-bold text-[34px] lg:text-[48px] lg:leading-[72px] text-white text-center'>Frequently Asked <span className=' bg-[linear-gradient(180deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text'> Questions</span></h3>
+                    <h3 className=' font-Poppins font-bold text-[34px] leading-[43px] lg:text-[48px] lg:leading-[72px] text-white text-center'>Frequently Asked <span className=' bg-[linear-gradient(180deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text'> Questions</span></h3>
                     <div className=" mt-[35px] md:mt-[55px] lg:mt-[81px]"><Accordion/></div>
                     <FooterSection />
                 </div>

@@ -31,9 +31,13 @@ const Header = () => {
                 <li><a href="#nodes" className=' font-Josefin font-normal text-[22px] leading-[22px] xl:text-[18px] 2xl:text-[22px] text-white hover:[text-shadow:_0_1px_0_white] transition-all duration-300 ease-linear' onClick={() => {
                   setfirst(!show);
                 }}>$GILD Nodes</a></li>
-                <button className=' font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] xl:hidden'><span className="flex gap-[10px] items-center"><Discordlogo />Discord</span></button>
+                <button className=' group relative overflow-hidden transition-all duration-300 ease-out font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] xl:hidden'>
+                  <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-[12rem]"></span>
+                  <span className="flex gap-[10px] items-center relative"><Discordlogo />Discord</span></button>
               </ul>
-              <button className=' font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] hidden xl:block '><span className="flex gap-[10px] items-center"><Discordlogo />Discord</span></button>
+              <button className=' group relative overflow-hidden transition-all duration-300 ease-out font-Josefin font-normal text-[24px] leading-[24px] text-white p-[14px_34px] bg-[linear-gradient(149.67deg,#815CC8_29.44%,#1BABFE_81.54%)] drop-shadow-[0_8px_35px#1BABFE] rounded-[80px] hidden xl:block '>
+                <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-[12rem]"></span>
+                <span className="flex gap-[10px] items-center relative"><Discordlogo />Discord</span></button>
             </div>
             <div className="z-5 xl:hidden " onClick={() => {
               setfirst(!show);

@@ -47,17 +47,17 @@ const FooterSection = () => {
                 <div className="col-6 sm:col-6 md:col-3 xl:col-2 sm:flex justify-center mt-8">
                     <ul>
                         <li className=' font-Josefin font-semibold text-[16px] leading-[28.72px] text-white'>About:</li>
-                        <li className=' mt-[12px]'><a href="#about" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all'>About Us</a></li>
-                        <li className=' mt-[6px]'><a href="#career" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all'>Career</a></li>
-                        <li className=' mt-[6px]'><a href="#nodes" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all'>Gilded Nodes</a></li>
+                        <li className=' mt-[12px]'><a href="#about" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all duration-300 ease-linear'>About Us</a></li>
+                        <li className=' mt-[6px]'><a href="#career" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all duration-300 ease-linear'>Career</a></li>
+                        <li className=' mt-[6px]'><a href="#nodes" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all duration-300 ease-linear'>Gilded Nodes</a></li>
                     </ul>
                 </div>
                 <div className="col-6 sm:col-12 md:col-3 xl:col-2 mt-8">
                     <ul>
                         <li className=' font-Josefin font-semibold text-[16px] leading-[28.72px] text-white'>Gilded Token:</li>
-                        <li className=' mt-[12px]'><a href="#Etherscan" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all'>Etherscan.io</a></li>
-                        <li className=' mt-[6px]'><a href="#Github" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all'>Github</a></li>
-                        <li className=' mt-[6px]'><a href="#Uniswap" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all'>Uniswap</a></li>
+                        <li className=' mt-[12px]'><a href="#Etherscan" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all duration-300 ease-linear'>Etherscan.io</a></li>
+                        <li className=' mt-[6px]'><a href="#Github" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all duration-300 ease-linear'>Github</a></li>
+                        <li className=' mt-[6px]'><a href="#Uniswap" className=' font-Josefin font-normal text-[16px] leading-[28.72px] text-[#B4B5B6] hover:text-white transition-all duration-300 ease-linear'>Uniswap</a></li>
                     </ul>
                 </div>
             </div>

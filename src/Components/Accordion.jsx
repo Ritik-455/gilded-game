@@ -6,7 +6,7 @@ import { Arrowacc, Arrowacc2, ArrowRight } from "../Common/icons";
 const AccordionItem = ({ heading, question, answer, isOpen, onClick }) => {
   const contentHeight = useRef();
   return (
-    <div className=" overflow-hidden border-[1px] border-[#3E3E3E] max-w-[1038px] w-full rounded-[6px]  bg-[#131616bc]">
+    <div className=" overflow-hidden border-[1px] border-[#3E3E3E] max-w-[1038px] w-full rounded-[6px]  bg-[#131616bc]" data-aos="fade-up">
       <button
         className={` w-full text-left p-[16px_19px] flex items-center justify-between cursor-pointer ${isOpen ? "active" : ""}`}
         onClick={onClick}
